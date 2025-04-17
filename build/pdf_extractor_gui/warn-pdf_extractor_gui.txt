@@ -14,10 +14,9 @@ Types if import:
 IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
             tracking down the missing module yourself. Thanks!
 
-missing module named urllib.urlopen - imported by urllib (optional), fpdf.py3k (optional)
-missing module named pwd - imported by posixpath (delayed, conditional, optional), shutil (delayed, optional), tarfile (optional), pathlib (delayed, optional), subprocess (delayed, conditional, optional), netrc (delayed, conditional), getpass (delayed), setuptools._distutils.util (delayed, conditional, optional), setuptools._distutils.archive_util (optional), setuptools._vendor.backports.tarfile (optional), http.server (delayed, optional)
+missing module named pwd - imported by posixpath (delayed, conditional, optional), shutil (delayed, optional), tarfile (optional), pathlib (delayed, optional), subprocess (delayed, conditional, optional), setuptools._distutils.util (delayed, conditional, optional), setuptools._distutils.archive_util (optional), netrc (delayed, conditional), getpass (delayed), setuptools._vendor.backports.tarfile (optional), http.server (delayed, optional)
 missing module named grp - imported by shutil (delayed, optional), tarfile (optional), pathlib (delayed, optional), subprocess (delayed, conditional, optional), setuptools._distutils.archive_util (optional), setuptools._vendor.backports.tarfile (optional)
-missing module named posix - imported by os (conditional, optional), posixpath (optional), shutil (conditional), importlib._bootstrap_external (conditional)
+missing module named posix - imported by os (conditional, optional), shutil (conditional), importlib._bootstrap_external (conditional), posixpath (optional)
 missing module named resource - imported by posix (top-level)
 missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
 excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
@@ -48,10 +47,6 @@ missing module named jaraco.text.yield_lines - imported by setuptools._vendor.ja
 missing module named _manylinux - imported by packaging._manylinux (delayed, optional), setuptools._vendor.packaging._manylinux (delayed, optional), setuptools._vendor.wheel.vendored.packaging._manylinux (delayed, optional)
 missing module named trove_classifiers - imported by setuptools.config._validate_pyproject.formats (optional)
 missing module named pyimod02_importers - imported by C:\Users\josec\OneDrive\Escritorio\PDFExtractor\env\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed), C:\Users\josec\OneDrive\Escritorio\PDFExtractor\env\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (delayed)
-missing module named HTMLParser - imported by fpdf.py3k (optional)
-missing module named Image - imported by fpdf.py3k (optional)
-missing module named md5 - imported by fpdf.py3k (optional)
-missing module named cPickle - imported by fpdf.py3k (optional)
 missing module named pandas - imported by pytesseract.pytesseract (optional), pymupdf.table (delayed, optional)
 missing module named fontTools - imported by pymupdf.utils (delayed, optional)
 missing module named cppyy - imported by pymupdf (delayed, conditional)
